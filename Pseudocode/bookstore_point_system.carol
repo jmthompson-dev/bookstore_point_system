@@ -1,0 +1,20 @@
+integer books_purchased
+integer points
+
+Put "Enter the number of books purchased this month:" to output
+books_purchased = Get next input
+
+IF books_purchased ≥ 8 THEN
+  points = 60
+ELSE IF books_purchased ≥ 6 THEN
+  points = 30
+ELSE IF books_purchased ≥ 4 THEN
+  points = 15
+ELSE IF books_purchased ≥ 2 THEN
+  points = 5
+ELSE
+  points = 0
+END IF
+
+Put "Points earned: " to output
+Put points to output
